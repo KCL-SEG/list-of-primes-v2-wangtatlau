@@ -2,6 +2,8 @@
 """ENTER YOUR SOLUTION HERE!"""
 
 def primes(number_of_primes):
+    if number_of_primes < 1:
+        raise ValueError("Number smaller than 0")
     list = []
     i = 2
     con = True
